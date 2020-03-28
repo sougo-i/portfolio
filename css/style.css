@@ -157,7 +157,6 @@ header,header ul,.nav-list{
 }
 .sns-icon {
   position: absolute;
-  bottom:25px;
   right:5%;
   font-size: 1.5em;
   letter-spacing:.3em;
@@ -165,8 +164,6 @@ header,header ul,.nav-list{
 .sns-icon i {
   color: white;
 }
-
-
 /* return-btnボタン */
 .return-btn {
   border: 1px solid black;
