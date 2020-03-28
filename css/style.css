@@ -175,4 +175,15 @@ header,header ul,.nav-list{
   cursor: pointer;
   display: none;
 }
+/* modal設定 */
+.modal-header,.modal-footer {
+  margin: 0 auto;
+}
+.modal img {
+  border: 1px solid black;
+}
+.modal img:hover {
+  opacity: 1;
+}
+
 

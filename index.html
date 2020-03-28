@@ -105,25 +105,25 @@
           <div class="row">
             <div class="work-1 col-xl-6 col-md-6 col-sm-12">
               <div class="work-detail p-1 m-1">
-                <img src="img/copy-airbnb-top.png" alt="Airbnbの模写">
+                <img data-toggle="modal" data-target="#exampleModalCenter-1" src="img/copy-airbnb-top-min.png" alt="Airbnbの模写">
                 <p>Airbnb<span>の模写</span></p>
               </div>
             </div>
             <div class="work-2 col-xl-6 col-md-6 col-sm-12 ">
                 <div class="work-detail p-1 m-1">
-                  <img src="img/copy-norton-top.png" alt="nortonセキュリティーの模写">
+                  <img data-toggle="modal" data-target="#exampleModalCenter-2" src="img/copy-norton-top-min.png" alt="nortonセキュリティーの模写">
                   <p>Nortonセキュリティーの模写</p>
                 </div>
             </div>
             <div class="work-3 col-xl-6 col-md-6 col-sm-12 ">
                 <div class="work-detail p-1 m-1">
-                    <img src="img/copy-write-top.png" alt="書くためのテーマの模写">
+                    <img data-toggle="modal" data-target="#exampleModalCenter-3" src="img/copy-write-top-min.png" alt="書くためのテーマの模写">
                     <p>Write（書くためのテーマ）の模写</p>
                  </div>
             </div>
             <div class="work-4 col-xl-6 col-md-6 col-sm-12">
               <div class="work-detail p-1 m-1">
-                  <img src="img/copy-roulette-top.png" alt="おみくじルーレット">
+                  <a target="blank" href="https://port-omikuji.netlify.com" ><img  src="img/copy-roulette-top-min.png" alt="おみくじルーレット"></a>
                   <p>おみくじルーレット</p>
                 </div>
             </div>
@@ -172,7 +172,7 @@
            <h1 class="text-center title">Contact</h1>
            <p class="text-center pb-5">TwitterのDMからご連絡ください</p>
            <div class="contact-btn text-center">
-             <a href="https://twitter.com/225sougo" target="brank" class="p-3">お問い合わせはこちら</a>
+             <a href="https://twitter.com/225sougo" target="_brank" class="p-3">お問い合わせはこちら</a>
            </div>
   
         </section>
@@ -180,18 +180,76 @@
     <footer class="footer p-2">
       <p class="hello mb-0">©️2020 Sougo Ito</p>
       <div class="sns-icon">
-        <a href="https://twitter.com/225sougo" class="twitter hello"><i class="fab fa-twitter p-1" ></i></a>
-        <a href="#" class="git hello"><i class="fab fa-github p-1"
+        <a href="https://twitter.com/225sougo" target="_blank" class="twitter hello"><i class="fab fa-twitter p-1" ></i></a>
+        <a href="https://github.com/sougo-i" target="brank" class="git hello"><i class="fab fa-github p-1"
           ></i></a>
-        <a href="" class="blog hello"><i class="fab fa-wordpress p-1" ></i></a>
+        <a href="https://soublog.org/" target="_brank" class="blog hello"><i class="fab fa-wordpress p-1" ></i></a>
       </div>
     </footer>
-
-
-  
-  
-
-
+    <!-- modal -->
+    <!-- work-1 -->
+    <div class="modal fade" id="exampleModalCenter-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle ">Airbnbの模写</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/copy-airbnb-min.png" alt="Airbnbの模写" size="50%">
+          </div>
+          <div class="modal-footer">
+            <a href="">参考サイト</a>
+            <button type="button" class="btn btn-secondary
+            " data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- work-2 -->
+    <div class="modal fade" id="exampleModalCenter-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle ">Nortonセキュリティーの模写</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/copy-norton-min.png" alt="">
+            </div>
+            <div class="modal-footer">
+              <a href="">参考サイト</a>
+              <button type="button" class="btn btn-secondary
+              " data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- work-3 -->
+      <div class="modal fade" id="exampleModalCenter-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle ">Write（書くためのテーマ）の模写</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="img/copy-write-min.png" alt="書くためのテーマの模写">
+              </div>
+              <div class="modal-footer">
+                <a href="">参考サイト</a>
+                <button type="button" class="btn btn-secondary
+                " data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
   <!-- jQuery本体の読み込み -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- jQuery Validation Engine 本体 読み込み -->

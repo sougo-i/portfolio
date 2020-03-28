@@ -56,13 +56,13 @@ $(function(){
     }
     // スキル一覧表示
     let skill = $(".skill").offset().top;
-    if($(this).scrollTop()>= skill/1.5){
+    if($(this).scrollTop()>= skill){
       $(".skill-list li").slideDown();
     }
 
     //works一覧表示
     let works = $(".works").offset().top;
-    if($(this).scrollTop()>= works/1.5){
+    if($(this).scrollTop()>= works){
       $(".work-detail").css({bottom:"-500px",opacity:"0"})
       .animate({bottom:"500px",opacity:"1"},2000);
     }
