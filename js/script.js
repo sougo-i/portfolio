@@ -56,7 +56,7 @@ $(function(){
     }
     // スキル一覧表示
     let skill = $(".skill").offset().top;
-    if($(this).scrollTop()>= skill){
+    if($(this).scrollTop()>= skill/1.5){
       $(".skill-list li").slideDown();
     }
 
@@ -69,7 +69,7 @@ $(function(){
 
     // サービステキストの表示
     let service =$(".service").offset().bottom;
-    if($(this).scrollTop() >= service/1.5){
+    if($(this).scrollTop() >= service){
       $(".service-text p").fadeIn();
     }
   })
